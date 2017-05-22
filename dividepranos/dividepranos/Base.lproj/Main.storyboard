@@ -82,6 +82,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Divide pra nós!"/>
+                                <connections>
+                                    <action selector="btnDivideUs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="si8-Cp-bX7"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Gtn-mH-CTl">
                                 <rect key="frame" x="100" y="496" width="56" height="52"/>
@@ -91,9 +94,23 @@
                                 <rect key="frame" x="164" y="496" width="56" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4w-h0-ifR">
+                                <rect key="frame" x="16" y="410" width="288" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.3294117647" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="lblAccountResult" destination="T4w-h0-ifR" id="Zlp-RT-XaA"/>
+                        <outlet property="txfAccountAmount" destination="hYo-Bt-X1V" id="niw-PT-3cd"/>
+                        <outlet property="txfExtras" destination="4dT-2N-oi5" id="7mL-X8-PxA"/>
+                        <outlet property="txfNumberOfPeople" destination="ZFj-4w-roQ" id="TUm-Og-hua"/>
+                        <outlet property="txfServiceCharge" destination="IKn-XG-gQZ" id="YcI-b2-gTM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

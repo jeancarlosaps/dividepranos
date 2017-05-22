@@ -9,15 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: Outlets
+    @IBOutlet weak var txfNumberOfPeople: UITextField!
+    @IBOutlet weak var txfAccountAmount: UITextField!
+    @IBOutlet weak var txfExtras: UITextField!
+    @IBOutlet weak var txfServiceCharge: UITextField!
+    @IBOutlet weak var lblAccountResult: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.txfNumberOfPeople.keyboardType = UIKeyboardType.numbersAndPunctuation
+        self.txfAccountAmount.keyboardType = UIKeyboardType.numbersAndPunctuation
+        self.txfExtras.keyboardType = UIKeyboardType.numbersAndPunctuation
+        self.txfServiceCharge.keyboardType = UIKeyboardType.numbersAndPunctuation
+        self.lblAccountResult.text = nil
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK: Função que realiza o cálculo da divisão da conta.
+    @IBAction func btnDivideUs(_ sender: UIButton) {
+        
+        
+    }
+    
+    func sumExpenses() -> Float {
+        
+        let result = 0.0
+        
+        return Float(result)
     }
 
 
