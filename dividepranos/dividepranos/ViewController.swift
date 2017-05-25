@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //MARK: Variáveis de controle
+    var numberOfPeople: Float = 0.0
+    var accountAmount: Float = 0.0
+    var extras: Float = 0.0
+    var serviceCharge: Float = 0.0
+    
     //MARK: Outlets
     @IBOutlet weak var txfNumberOfPeople: UITextField!
     @IBOutlet weak var txfAccountAmount: UITextField!
@@ -30,16 +36,21 @@ class ViewController: UIViewController {
 
     //MARK: Função que realiza o cálculo da divisão da conta.
     @IBAction func btnDivideUs(_ sender: UIButton) {
+        self.numberOfPeople = Float(self.txfNumberOfPeople.text!)!
+        self.accountAmount = Float(self.txfAccountAmount.text!)!
+        self.extras = Float(self.txfExtras.text!)!
+        self.serviceCharge = Float(self.txfServiceCharge.text!)!
         
+        let result = self.accountAmount + self.extras + self.serviceCharge / self.numberOfPeople
         
+        self.lblAccountResult.text = String(result)
     }
     
-    func sumExpenses() -> Float {
-        
-        let result = 0.0
-        
-        return Float(result)
-    }
+//    func sumExpenses() -> Float {
+//        
+//        
+//        //return Float(result)
+//    }
 
 
 }
