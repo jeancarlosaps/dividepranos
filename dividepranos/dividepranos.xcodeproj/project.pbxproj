@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		388309FC45C7764A465D45C3 /* Pods_dividepranos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E3661B84F8D05DF2056120 /* Pods_dividepranos.framework */; };
+		D9B7D6371EDFE78F00021009 /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B7D6351EDFE78F00021009 /* taxi.png */; };
+		D9B7D6381EDFE78F00021009 /* Uber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B7D6361EDFE78F00021009 /* Uber.jpg */; };
 		D9F3C9C71ECFD30700623447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F3C9C61ECFD30700623447 /* AppDelegate.swift */; };
 		D9F3C9C91ECFD30700623447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F3C9C81ECFD30700623447 /* ViewController.swift */; };
 		D9F3C9CC1ECFD30700623447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F3C9CA1ECFD30700623447 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		1CD6CEB2175E76B067113B8C /* Pods-dividepranos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dividepranos.release.xcconfig"; path = "Pods/Target Support Files/Pods-dividepranos/Pods-dividepranos.release.xcconfig"; sourceTree = "<group>"; };
 		64C819E465A9793CDAAEEF32 /* Pods-dividepranos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dividepranos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dividepranos/Pods-dividepranos.debug.xcconfig"; sourceTree = "<group>"; };
 		89E3661B84F8D05DF2056120 /* Pods_dividepranos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dividepranos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B7D6351EDFE78F00021009 /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = "<group>"; };
+		D9B7D6361EDFE78F00021009 /* Uber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uber.jpg; sourceTree = "<group>"; };
 		D9F3C9C31ECFD30700623447 /* dividepranos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dividepranos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F3C9C61ECFD30700623447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F3C9C81ECFD30700623447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 			children = (
 				D9F3C9E61ECFF68A00623447 /* facebook.jpeg */,
 				D9F3C9E81ECFF70A00623447 /* twitter.jpeg */,
+				D9B7D6351EDFE78F00021009 /* taxi.png */,
+				D9B7D6361EDFE78F00021009 /* Uber.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -223,9 +229,11 @@
 			files = (
 				D9F3C9D11ECFD30700623447 /* LaunchScreen.storyboard in Resources */,
 				D9F3C9CE1ECFD30700623447 /* Assets.xcassets in Resources */,
+				D9B7D6381EDFE78F00021009 /* Uber.jpg in Resources */,
 				D9F3C9E91ECFF70A00623447 /* twitter.jpeg in Resources */,
 				D9F3C9CC1ECFD30700623447 /* Main.storyboard in Resources */,
 				D9F3C9E71ECFF68A00623447 /* facebook.jpeg in Resources */,
+				D9B7D6371EDFE78F00021009 /* taxi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

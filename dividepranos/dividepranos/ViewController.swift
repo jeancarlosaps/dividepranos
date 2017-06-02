@@ -51,6 +51,17 @@ class ViewController: UIViewController {
 //        
 //        //return Float(result)
 //    }
+    
+    @IBAction func btnCallUber(_ sender: UIButton) {
+        
+        
+    }
+    
+    @IBAction func btnCallTaxi(_ sender: UIButton) {
+        
+        
+    }
+    
 
 
 }
