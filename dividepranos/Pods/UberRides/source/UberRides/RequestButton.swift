@@ -62,7 +62,7 @@ public class RequestButton: UIButton {
     private func setUp(colorStyle: RequestButtonColorStyle) {
         do {
             try setDeeplink()
-            addTarget(self, action: "uberButtonTapped:", for: .touchUpInside)
+            addTarget(self, action: Selector(("uberButtonTapped:")), for: .touchUpInside)
         } catch RequestButtonError.NullClientID {
             print("No Client ID attached to the deeplink.")
         } catch let error {
@@ -101,7 +101,7 @@ public class RequestButton: UIButton {
      - parameter nickname:  Optional pickup location name
      - parameter address:   Optional pickup location address
      */
-    public func setPickupLocation(latitude latitude: Double, longitude: Double, nickname: String? = nil, address: String? = nil) {
+    public func setPickupLocation(latitude: Double, longitude: Double, nickname: String? = nil, address: String? = nil) {
         if RidesClient.sharedInstance.hasClientID() {
             deeplink!.setPickupLocation(latitude: latitude, longitude: longitude, nickname: nickname, address: address)
         }
@@ -115,7 +115,7 @@ public class RequestButton: UIButton {
      - parameter nickname:  Optional dropoff location name
      - parameter address:   Optional dropoff location address
      */
-    public func setDropoffLocation(latitude latitude: Double, longitude: Double, nickname: String? = nil, address: String? = nil) {
+    public func setDropoffLocation(latitude: Double, longitude: Double, nickname: String? = nil, address: String? = nil) {
         if RidesClient.sharedInstance.hasClientID() {
             deeplink!.setDropoffLocation(latitude: latitude, longitude: longitude, nickname: nickname, address: address)
         }
