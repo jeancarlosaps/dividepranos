@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UberRides
 
 class ViewController: UIViewController {
     
@@ -32,6 +33,15 @@ class ViewController: UIViewController {
         self.txfServiceCharge.keyboardType = UIKeyboardType.numbersAndPunctuation
         self.lblAccountResult.text = nil
         
+    }
+    
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        // If true, all requests will hit the sandbox, useful for testing
+        Configuration.setSandboxEnabled(true)
+        // If true, Native login will try and fallback to using Authorization Code Grant login (for privileged scopes). Otherwise will redirect to App store
+        Configuration.setFallbackEnabled(false)
+        // Complete other setup
+        return true
     }
 
     //MARK: Função que realiza o cálculo da divisão da conta.

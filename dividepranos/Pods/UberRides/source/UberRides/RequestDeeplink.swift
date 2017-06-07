@@ -271,7 +271,7 @@ private class QueryParameters: NSObject {
     }
     
     private func stringFromParameterValue(value: String) -> String {
-        let customAllowedChars =  NSCharacterSet(charactersInString: " =\"#%/<>?@\\^`{|}!$&'()*+,:;[]%").invertedSet
+        let customAllowedChars =  NSCharacterSet(charactersInString: " =\"#%/<>?@\\^`{|}!$&'()*+,:;[]%").inverted
         return value.stringByAddingPercentEncodingWithAllowedCharacters(customAllowedChars)!
     }
 }

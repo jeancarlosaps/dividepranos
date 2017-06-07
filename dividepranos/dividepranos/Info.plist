@@ -39,5 +39,18 @@
 		<string>uber</string>
 		<string>uberauth</string>
 	</array>
+    <key>UberClientID</key>
+    <string><KBI6V7MGR7NlL7O-HD6c3_Qj7rBmm37M></string>
+    <key>UberDisplayName</key>
+    <string><Dividepranos></string>
+    <key>UberCallbackURIs</key>
+    <array>
+        <dict>
+            <key>UberCallbackURIType</key>
+            <string>General</string>
+            <key>URIString</key>
+            <string><http://localhost/></string>
+        </dict>
+    </array>
 </dict>
 </plist>
