@@ -36,6 +36,9 @@ class ViewController: UIViewController {
     }
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        // China based apps should specify the region
+        Configuration.setRegion(.Brazil)
         // If true, all requests will hit the sandbox, useful for testing
         Configuration.setSandboxEnabled(true)
         // If true, Native login will try and fallback to using Authorization Code Grant login (for privileged scopes). Otherwise will redirect to App store
