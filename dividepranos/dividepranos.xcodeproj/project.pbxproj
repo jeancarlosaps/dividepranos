@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		388309FC45C7764A465D45C3 /* Pods_dividepranos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E3661B84F8D05DF2056120 /* Pods_dividepranos.framework */; };
+		D98266B11EFCC4C900E258DB /* SplitAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98266B01EFCC4C900E258DB /* SplitAccount.swift */; };
 		D9B7D6371EDFE78F00021009 /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B7D6351EDFE78F00021009 /* taxi.png */; };
 		D9B7D6381EDFE78F00021009 /* Uber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9B7D6361EDFE78F00021009 /* Uber.jpg */; };
 		D9F3C9C71ECFD30700623447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F3C9C61ECFD30700623447 /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 		1CD6CEB2175E76B067113B8C /* Pods-dividepranos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dividepranos.release.xcconfig"; path = "Pods/Target Support Files/Pods-dividepranos/Pods-dividepranos.release.xcconfig"; sourceTree = "<group>"; };
 		64C819E465A9793CDAAEEF32 /* Pods-dividepranos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dividepranos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dividepranos/Pods-dividepranos.debug.xcconfig"; sourceTree = "<group>"; };
 		89E3661B84F8D05DF2056120 /* Pods_dividepranos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dividepranos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98266B01EFCC4C900E258DB /* SplitAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitAccount.swift; sourceTree = "<group>"; };
 		D9B7D6351EDFE78F00021009 /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = "<group>"; };
 		D9B7D6361EDFE78F00021009 /* Uber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uber.jpg; sourceTree = "<group>"; };
 		D9F3C9C31ECFD30700623447 /* dividepranos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dividepranos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 		D9F3C9D91ECFD34000623447 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				D98266B01EFCC4C900E258DB /* SplitAccount.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F3C9C91ECFD30700623447 /* ViewController.swift in Sources */,
+				D98266B11EFCC4C900E258DB /* SplitAccount.swift in Sources */,
 				D9F3C9C71ECFD30700623447 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
