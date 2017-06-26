@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import UberRides
+//import UberRides
 
 class ViewController: UIViewController {
     
@@ -37,18 +37,19 @@ class ViewController: UIViewController {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        // China based apps should specify the region
-        Configuration.setRegion(.Brazil)
-        // If true, all requests will hit the sandbox, useful for testing
-        Configuration.setSandboxEnabled(true)
-        // If true, Native login will try and fallback to using Authorization Code Grant login (for privileged scopes). Otherwise will redirect to App store
-        Configuration.setFallbackEnabled(false)
-        // Complete other setup
-        return true
+//        // China based apps should specify the region
+//        Configuration.setRegion(.Brazil)
+//        // If true, all requests will hit the sandbox, useful for testing
+//        Configuration.setSandboxEnabled(true)
+//        // If true, Native login will try and fallback to using Authorization Code Grant login (for privileged scopes). Otherwise will redirect to App store
+//        Configuration.setFallbackEnabled(false)
+//        // Complete other setup
+//        return true
     }
 
     //MARK: Função que realiza o cálculo da divisão da conta.
     @IBAction func btnDivideUs(_ sender: UIButton) {
+        
         self.numberOfPeople = Float(self.txfNumberOfPeople.text!)!
         self.accountAmount = Float(self.txfAccountAmount.text!)!
         self.extras = Float(self.txfExtras.text!)!
@@ -58,12 +59,6 @@ class ViewController: UIViewController {
         
         self.lblAccountResult.text = String(result)
     }
-    
-//    func sumExpenses() -> Float {
-//        
-//        
-//        //return Float(result)
-//    }
     
     @IBAction func btnCallUber(_ sender: UIButton) {
         
@@ -75,7 +70,5 @@ class ViewController: UIViewController {
         
     }
     
-
-
 }
 
