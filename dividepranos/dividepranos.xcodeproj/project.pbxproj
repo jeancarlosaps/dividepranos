@@ -18,6 +18,7 @@
 		D9F3C9D11ECFD30700623447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F3C9CF1ECFD30700623447 /* LaunchScreen.storyboard */; };
 		D9F3C9E71ECFF68A00623447 /* facebook.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9F3C9E61ECFF68A00623447 /* facebook.jpeg */; };
 		D9F3C9E91ECFF70A00623447 /* twitter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9F3C9E81ECFF70A00623447 /* twitter.jpeg */; };
+		D9F884CD1F0DE89C002C231E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F884CC1F0DE886002C231E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D9F3C9D21ECFD30700623447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F3C9E61ECFF68A00623447 /* facebook.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpeg; sourceTree = "<group>"; };
 		D9F3C9E81ECFF70A00623447 /* twitter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpeg; sourceTree = "<group>"; };
+		D9F884CC1F0DE886002C231E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		D9F3C9BA1ECFD30600623447 = {
 			isa = PBXGroup;
 			children = (
+				D9F884CC1F0DE886002C231E /* Default-568h@2x.png */,
 				D9F3C9C51ECFD30700623447 /* dividepranos */,
 				D9F3C9C41ECFD30700623447 /* Products */,
 				CA0E204CAD9FC2B5A865C06E /* Pods */,
@@ -197,12 +200,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jean Carlos";
 				TargetAttributes = {
 					D9F3C9C21ECFD30700623447 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 22GD85QNU8;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -235,6 +239,7 @@
 				D9B7D6381EDFE78F00021009 /* Uber.jpg in Resources */,
 				D9F3C9E91ECFF70A00623447 /* twitter.jpeg in Resources */,
 				D9F3C9CC1ECFD30700623447 /* Main.storyboard in Resources */,
+				D9F884CD1F0DE89C002C231E /* Default-568h@2x.png in Resources */,
 				D9F3C9E71ECFF68A00623447 /* facebook.jpeg in Resources */,
 				D9B7D6371EDFE78F00021009 /* taxi.png in Resources */,
 			);
@@ -333,7 +338,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -341,7 +348,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,7 +394,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -391,7 +404,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -428,7 +445,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeancarlosit.dividepranos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -444,7 +462,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeancarlosit.dividepranos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

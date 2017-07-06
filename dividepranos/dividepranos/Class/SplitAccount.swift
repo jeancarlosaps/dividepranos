@@ -9,17 +9,8 @@
 import Foundation
 
 func SplitAccount(numberOfPeople: Float, accountAmount: Float, extras: Float, serviceCharge: Float) -> Float{
-
-    let result: Float = 0.0
-    
-    //    self.numberOfPeople = Float(self.txfNumberOfPeople.text!)!
-//    self.accountAmount = Float(self.txfAccountAmount.text!)!
-//    self.extras = Float(self.txfExtras.text!)!
-//    self.serviceCharge = Float(self.txfServiceCharge.text!)!
-//    
-//    let result = self.accountAmount + self.extras + self.serviceCharge / self.numberOfPeople
-//    
-//    self.lblAccountResult.text = String(result)
+    var result: Float = 0.0
+    result = accountAmount + extras + serviceCharge / numberOfPeople
     
     return result
 }
