@@ -51,11 +51,13 @@ class ViewController: UIViewController {
         self.lblAccountResult.text = String(result)
     }
     
+    //TODO
     @IBAction func btnCallUber(_ sender: UIButton) {
         
         
     }
     
+    //TODO
     @IBAction func btnCallTaxi(_ sender: UIButton) {
         
         
